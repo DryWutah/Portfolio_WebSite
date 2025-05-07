@@ -1,0 +1,113 @@
+.education {
+    background-color: #2c313167;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 0 10px;
+    transition: 0.3s;
+}
+.education h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+.education h2{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education h3{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+.education p{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    -webkit-text-stroke: 1px black;
+    color: #ffffffa8;
+}
+.coursework{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    min-width: 75%;
+    border-radius: 150px;
+    background-image: radial-gradient(circle at 50% 50%, #4e4e4e ,#00000000 50%);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+ul, li{
+    list-style-type: none;
+    color: #fffffff1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul{
+    -webkit-text-stroke: 1px black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li p{
+    align-self: center;
+    margin: auto 0 auto 0;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+li p:hover{
+    color: #076e45;
+    scale: 1.1;
+    -webkit-text-stroke: 1px white;
+    transition: 0.5s ease-in-out;
+}
+.certifications{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+}
+.row1, .row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0; 
+    max-width: 50%;
+}
+.row1 img, .row2 img{
+    width: 50%;
+    height: 50%;
+    display: block; 
+    margin: 10px 15px 0 15px;
+    opacity: .75;
+    transition: 0.5s ease-in-out;
+}
+.row1 img:hover, .row2 img:hover{
+    cursor: pointer;
+    opacity: 1;
+    scale: 1.25;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
